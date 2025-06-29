@@ -5,7 +5,7 @@ import { ApiTags, ApiOperation } from '@nestjs/swagger';
 import { BooksService } from './books.service';
 import { CacheService } from '../cache/cache.service';
 import { CreateReviewDto } from '../reviews/dto/create-review.dto';
-import { CreateBookDto } from 'src/reviews/dto/create-book.dto';
+import { CreateBookDto } from '../reviews/dto/create-book.dto';
 
 @ApiTags('books')
 @Controller('books')

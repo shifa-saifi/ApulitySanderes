@@ -4,7 +4,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Review } from '../reviews/entities/review.entity';
 import { CreateReviewDto } from '../reviews/dto/create-review.dto';
 import { Book } from './entities/books.entity';
-import { CreateBookDto } from 'src/reviews/dto/create-book.dto';
+import { CreateBookDto } from '..//reviews/dto/create-book.dto';
 
 @Injectable()
 export class BooksService {

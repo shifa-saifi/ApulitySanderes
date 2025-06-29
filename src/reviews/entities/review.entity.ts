@@ -1,4 +1,4 @@
-import { Book } from 'src/books/entities/books.entity';
+import { Book } from '../../books/entities/books.entity';
 import {
   Entity,
   PrimaryGeneratedColumn,
